@@ -3,6 +3,7 @@ package EntendendoHerança;
 public class Controle {
     Empregado[] empregado = new Empregado[3];
     int index = 0;
+
     public void adicionarEmpregado(Empregado empregado) {
         this.empregado[index++]=empregado;
     }
